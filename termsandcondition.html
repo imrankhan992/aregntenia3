@@ -239,7 +239,7 @@
                     <h3>Información legal</h3>
                     <ul>
                         <li><a href="/termsandcondition.html">Términos y Condiciones</a></li>
-                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="/privacy-policy.html">Política de Privacidad</a></li>
                         <!-- <li><a href="#">Juego Responsable</a></li> -->
                         <li><a href="/#contacto">Contacto</a></li>
                     </ul>
@@ -251,7 +251,14 @@
             </div>
         </div>
     </footer>
-
+ <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const nav = document.querySelector('.nav');
+            nav.classList.add('mobile-active');
+            nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
    
 </body>
 </html>

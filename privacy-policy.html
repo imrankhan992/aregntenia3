@@ -262,6 +262,14 @@
         </div>
     </footer>
 
-    
+      <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const nav = document.querySelector('.nav');
+            nav.classList.add('mobile-active');
+            nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+   
 </body>
 </html>
